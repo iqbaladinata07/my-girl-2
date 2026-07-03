@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definition of Beauty</title>
+    <!-- Tailwind CSS v4 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .glass-img {
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-rose-900 via-purple-900 to-indigo-900 p-8">
+
+    <!-- Decorative blobs -->
+    <div class="fixed top-[-100px] right-[-100px] w-96 h-96 bg-rose-500 rounded-full opacity-25 blur-3xl pointer-events-none"></div>
+    <div class="fixed bottom-[-80px] left-[-80px] w-80 h-80 bg-indigo-500 rounded-full opacity-20 blur-3xl pointer-events-none"></div>
+    <div class="fixed top-1/2 right-1/4 w-64 h-64 bg-purple-400 rounded-full opacity-10 blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-2xl mx-auto space-y-6 relative z-10">
+
+        <!-- Page Title -->
+        <div class="text-center pb-2">
+            <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"
+            class="text-4xl font-bold text-rose-300 tracking-tight drop-shadow-lg">Definition of Beauty</h1>
+        </div>
+
+        <!-- Image Card -->
+        <div class="glass-card rounded-3xl p-8 shadow-2xl flex flex-col items-center gap-4">
+            <div class="relative">
+                <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-rose-400 to-purple-500 blur-lg opacity-50 scale-105"></div>
+                <img
+                    src="image.PNG/mine.JPG"
+                    alt="My girl"
+                    width="150"
+                    class="glass-img relative rounded-2xl object-cover"
+                />
+            </div>
+            <p class="text-rose-200/100 font-bold italic"
+            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">INA ANDIYANA</p>
+        </div>
+
+        <!-- Navigation Links Card -->
+        <div class="glass-nav rounded-2xl p-5 shadow-lg">
+            <p class="text-white/40 text-xs uppercase tracking-widest mb-3">CLick this</p>
+            <div class="flex flex-wrap gap-3">
+                <a href="https://drive.google.com/file/d/1E6rfeliSdxhdEKXbXbAQ13pK3TXSQNVR/view?usp=drive_link" target="_blank"
+                style="font-family: Georgia, 'Times New Roman', Times, serif;"
+                class="font-bold italic flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-sm font-medium transition-all duration-200 hover:scale-105 border border-white/20">
+                    <svg 
+                    class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                    </svg> 
+                    Mine
+                </a>
+                
+            </div>
+        </div>
+
+        <!-- Lorem Content Cards -->
+        <div class="glass-card rounded-3xl p-8 shadow-2xl space-y-5">
+            
+            <p class="text-white/40 text-xs uppercase tracking-widest">Content</p>
+
+            <div class="flex gap-5">
+                <span class="w-7 h-7 rounded-lg bg-gradient-to-br from-rose-400 to-pink-500 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">1</span>
+                <h
+                    class="text-white font-bold text-sm"
+                    style="color:rgb(223, 184, 201); font-family: cursive; font-size:150%">her Eyes
+                </h>
+                
+    
+                 <p class="flex gap-2 text-white"
+                    style="font-family:Georgia, 'Times New Roman', Times, serif ;font-size: 75%;">If you look into her eyes you can fall in love in any second, because she has two big eyes that very attractive, but unfortunately she's mine no one can look in to her eyes except me!</p>
+                   
+                
+                </div>
+
+            <div class="h-px bg-white/10"></div>
+
+            <div class="flex gap-5">
+                <span class="w-7 h-7 rounded-lg bg-gradient-to-br from-purple-400 to-indigo-500 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">2</span>
+                <h 
+                class="text-white font-bold leading-relaxed"
+                style="color:rgb(223, 184, 201); font-family:cursive; font-size:150%">Her Lips</h>
+
+                <p 
+                class="flex gap-2 text-white"
+                style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:75%">What can i say? She has beautiful small lips which is a good match with her beautiful face, i can't remember how many that i kissed her lips... </p>
+                
+            </div>
+
+            <div class="h-px bg-white/10"></div>
+
+            <div class="flex gap-5">
+                <span class="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-400 to-blue-500 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">3</span>
+                <h class="text-white font-bold leading-relaxed"
+                   style="color:rgb(223, 184, 201); font-family:cursive; font-size:150%">Her Personality</h>
+                    
+                <p 
+                class="flex gap-2 text-white"
+                style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:75%">Very kind with kids, sweet and soft, but i tell you something if you are gone from morning till night and not giving her any update about you, she can be a crazy girl..</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <p class="text-center text-white/30 text-xs">Iqbal Rizky Adinata &mdash; Love you &amp; Miss you</p>
+
+    </div>
+
+</body>
+</html>
